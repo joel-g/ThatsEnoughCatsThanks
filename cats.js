@@ -29,8 +29,8 @@ const subreddits = [
 ]
 
 for (let i = 0; i < subreddits.length; i++) {
-  $('.addRowButton:eq(1)').trigger('click');
-  $("#subreddits_filteRedditSubredditsSubreddits_" + (i+1)).val(subreddits[i]);
+  document.getElementsByClassName("addRowButton")[1].click();
+  document.getElementById("subreddits_filteRedditSubredditsSubreddits_" + (i+1)).value = subreddits[i];
 }
 
-$('#moduleOptionsSave').trigger('click');
+document.getElementById("moduleOptionsSave").click();
