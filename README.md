@@ -8,6 +8,6 @@ If you're a normal internet user you've probably seen *a lot* of pictures of cat
 
 2. Log in to your reddit account and go https://www.reddit.com/#res:settings/filteReddit
 
-3. Open the console and paste the code from 'cats.js'
+3. Open the console and paste the code from ['cats.js'](https://github.com/joel-g/ThatsEnoughCatsThanks/blob/master/cats.js)
 
 4. You are now free of cats subreddits.
